@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #938e8e;
+    overflow-y: hidden;
+}
+
+.container{
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    background-color: #cdcdcd;
+    border-radius: 10px;
+    padding: 1.5rem 3rem 2rem;
+    gap: 1rem;
+}
+.user-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input, select{
+    padding-left: 9px;
+}
+.user-input p {
+    font-size: 20px;
+}
+.user-input input {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1.1rem;
+}
+.user-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+select {
+    height: 3rem;
+    font-size: 1.1rem;
+}
+
+.user-input p {
+    font-size: 20px;
+}
+.result {
+    height: 4rem;
+}
+.result p:nth-child(1) {
+    font-size: 1.3rem;
+}
+.result p:nth-child(2) {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    background-color: #e5e7eb;
+    height: 3rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+.container h1 {
+    background: gainsboro;
+    padding: 7px 40px;
+    text-align: center;
+}
+button {
+    margin-top: 3rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.container h1, .container p {
+    margin: 0;
+}
